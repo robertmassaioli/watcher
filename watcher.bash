@@ -8,8 +8,15 @@
 
 set -e
 
-DEFAULT_PLAYBACK='mplayer'
-DEFAULT_SAVE_FILE=".watched_videos"
+if [ "x" == "x$DEFAULT_PLAYBACK" ]
+then
+   DEFAULT_PLAYBACK='mplayer'
+fi
+
+if [ "x" == "x$DEFAULT_SAVE_FILE" ]
+then
+   DEFAULT_SAVE_FILE=".watched_videos"
+fi
 
 USAGE="Usage: $0 (watch|watched|count) [video]"
 
