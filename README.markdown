@@ -25,7 +25,20 @@ even know if that is possible. I have not tested it yet.
 
 ## Getting Started
 
+Watcher does not have that many commands, infact they can be summarised in a short list:
+
+ - next - Starts the playback of the next unwatched video. Will automatically increment the watch
+   count.
+ - watch - Watch a video of your choosing. Will automatically increment the watch count.
+ - watched - Tell watcher that you have watched a video without it knowing about it.
+ - count - Will give you the count of how many times a particular watch has been viewed, or, if
+   given no argument, will give you the counts of every watch item.
+
+
 ## Helping Development of Watcher
+
+This is github, just check out the code and help me develop away. I would love to see patches and
+improvements of any kind.
 
 ## Where to from here
 
